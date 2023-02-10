@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: rgb(54,77,204);
+    background: linear-gradient(183deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+.foto{
+    width: 90px;
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0px 20px white;
+    margin-top: 25px;
+}
+.coisasthiago{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+    margin-top: 5px;
+
+}
+h2{
+    font-weight: 100;
+    font-size: 23px;
+}
+.sociallinks{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+ul li img{
+    width: 33px;
+}
+.links li a{
+    text-decoration: none;
+    color: rgb(54,77,204);
+    display: block;
+    background-color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+    font-weight: bold;
+}
+.links li{
+    padding: 5px;
+    margin-top: 0px;
+}
+.links li a span{
+    color: gray;
+    margin-top: 10px;
+    display: block;
+    padding: 0px;
+}
+.whats li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(54,77,204);
+    background-color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+}
+.whats li a span{
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+.whats li{
+    margin-top: 25px;
+}
+.whats{
+    margin-top: 40px;
+}
+.footer{
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px white;
+    margin-top: 50px;
+}
+.links{
+    margin-top: 10px;
+}
